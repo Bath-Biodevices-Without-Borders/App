@@ -27,6 +27,7 @@ import ReadingsStackNavigator from './src/screens/readings_screen/readings_stack
 import HomeStackNavigator from './src/screens/home_screen/home_stack_navigator';
 import NewsStackNavigator from './src/screens/news_screen/news_stack_navigator';
 import AccountStackNavigator from './src/screens/account_screen/account_stack_navigator';
+import RangeSliderStackNavigator from './src/screens/range_slider_screen/range_slider_stack_navigator';
 
 const Tab: any = createBottomTabNavigator<RootTabParamList>();
 
@@ -61,6 +62,7 @@ export default function App() {
     HomeStackNavigator,
     NewsStackNavigator,
     AccountStackNavigator,
+    RangeSliderStackNavigator,
   ];
 
   const [isKeyboardVisible, setKeyboardVisible] = useState(false);

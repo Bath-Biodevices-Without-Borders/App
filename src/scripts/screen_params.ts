@@ -4,6 +4,7 @@ export type RootTabParamList = {
   HomeStack: undefined;
   NewsStack: undefined;
   AccountStack: undefined;
+  RangeSliderStack: undefined
 };
 
 export type MapParamList = {
@@ -34,4 +35,8 @@ export type AccountParamList = {
   LoginScreen: {validNavigation: boolean} | undefined;
   SignupScreen: {validNavigation: boolean} | undefined;
   ResetPasswordScreen: {validNavigation: boolean} | undefined;
+};
+
+export type RangeSliderParamList = {
+  RangeSliderScreen: undefined;
 };

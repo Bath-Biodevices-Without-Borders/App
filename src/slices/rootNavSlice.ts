@@ -8,6 +8,7 @@ import {
   faNewspaper,
   faUser,
   faChartLine,
+  faSliders,
 } from '@fortawesome/free-solid-svg-icons';
 
 const initialState: TRootNavSliceState = {
@@ -36,6 +37,11 @@ const initialState: TRootNavSliceState = {
       name: 'AccountNav',
       focused: false,
       icon: faUser,
+    },
+    {
+      name: 'RangeSliderNav',
+      focused: false,
+      icon: faSliders,
     },
   ],
 };
